@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+'''
+Håvard Kråkenes - 28.10.2018
+Solves a SIR model of spreading of a flu using forward euler and heun's method
+'''
 
 # Time unit: 1 h
 beta = 10/(40*8*24)
