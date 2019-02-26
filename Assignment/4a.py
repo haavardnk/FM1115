@@ -1,7 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+'''
+Håvard Kråkenes - 28.10.2018
+Solves a second-order oscillating pendulum system using a backward euler scheme.
+'''
 
 omega = 2
 P = 2*np.pi/omega
